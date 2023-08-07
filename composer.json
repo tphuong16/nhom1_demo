@@ -1,0 +1,11 @@
+{
+    "require-dev": {
+        "codeception/module-webdriver": "^4.0",
+        "codeception/module-db": "^3.1",
+        "codeception/module-rest": "^3.3"
+    },
+    "require": {
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "*"
+    }
+}

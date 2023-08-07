@@ -1,0 +1,11 @@
+class_name: UnitTester
+modules:
+    enabled:
+        - Asserts
+        - Db
+    config:
+        Db:
+            dsn: 'mysql:host=localhost;dbname=nhom1_demodb'
+            user: 'root'
+            password: '' 
+            dump: 'tests/Support/Data/nhom1_demodb.sql'
